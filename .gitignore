@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.retry
+.idea
+.local
+.vscode
+localtest_*
+*.retry
+*.iml
+*.pyc
+*.DS_Store
+out
+gen
+deploy-on-kubernetes.iml
+src
+pipeline.gdsl
