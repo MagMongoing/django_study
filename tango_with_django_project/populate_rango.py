@@ -4,8 +4,8 @@ import django
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tango_with_django_project.settings')
 
-django.setup()
-from rango.models import Category, Page
+django.setup()      # django基础设施初始化，导入django项目的配置
+from rango.models import Category, Page    # 导入模型
 
 
 def populate():
